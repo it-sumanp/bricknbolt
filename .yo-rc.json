@@ -1,0 +1,38 @@
+{
+    "generator-jhipster": {
+        "promptValues": {
+            "packageName": "com.bricknbolt",
+            "nativeLanguage": "en"
+        },
+        "jhipsterVersion": "5.8.1",
+        "applicationType": "monolith",
+        "baseName": "bricknbolt",
+        "packageName": "com.bricknbolt",
+        "packageFolder": "com/bricknbolt",
+        "serverPort": "8080",
+        "authenticationType": "jwt",
+        "cacheProvider": "ehcache",
+        "enableHibernateCache": true,
+        "websocket": false,
+        "databaseType": "sql",
+        "devDatabaseType": "mysql",
+        "prodDatabaseType": "mysql",
+        "searchEngine": false,
+        "messageBroker": false,
+        "serviceDiscoveryType": false,
+        "buildTool": "maven",
+        "enableSwaggerCodegen": false,
+        "jwtSecretKey": "ODk5MTRjNTdmN2UwYzVlNDYzNGFmZDJkMmRhMjhlOWI0MTc1ZDllNDZlM2FlNGI0NmUyYTk2NmRjNzQ0MTJlYmNhYmVlMDI4Y2NmNjEzNzA4MDMxM2RmZDYxMDJjNWIxNWQ2NDI1YzIwNDZhZThjNmNiYzFjMGRjOWJlZjRkZTY=",
+        "clientFramework": "angularX",
+        "useSass": true,
+        "clientPackageManager": "npm",
+        "testFrameworks": [],
+        "jhiPrefix": "jhi",
+        "entitySuffix": "",
+        "dtoSuffix": "DTO",
+        "otherModules": [],
+        "enableTranslation": true,
+        "nativeLanguage": "en",
+        "languages": ["en"]
+    }
+}
