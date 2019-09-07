@@ -1,0 +1,55 @@
+{
+    "name": "Order",
+    "fields": [
+        {
+            "fieldName": "price",
+            "fieldType": "Float",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "orderDate",
+            "fieldType": "Instant",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "medium",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "buyer",
+            "otherEntityName": "boltUser",
+            "otherEntityField": "id",
+            "otherEntityRelationshipName": "order"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "referrer",
+            "otherEntityName": "boltUser",
+            "otherEntityField": "id",
+            "otherEntityRelationshipName": "order"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "item",
+            "otherEntityName": "product",
+            "otherEntityField": "id",
+            "otherEntityRelationshipName": "order"
+        }
+    ],
+    "changelogDate": "20190906060522",
+    "entityTableName": "order",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

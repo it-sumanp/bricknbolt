@@ -1,0 +1,22 @@
+entity Product {
+    name String required
+    price Float required
+}
+
+entity BoltUser {
+    name String required
+    phone String required minlength(10) maxlength(10) pattern(/[0-9]+/)
+}
+
+entity Order {
+	price Float required
+    orderDate Instant required
+    medium String
+}
+
+relationship ManyToOne {
+    Order{buyer} to BoltUser
+    Order{referrer} to BoltUser
+    Order{item} to Product
+}
+

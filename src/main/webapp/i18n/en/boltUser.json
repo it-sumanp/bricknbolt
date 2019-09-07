@@ -1,0 +1,23 @@
+{
+    "bricknboltApp": {
+        "boltUser": {
+            "home": {
+                "title": "Bolt Users",
+                "createLabel": "Create a new Bolt User",
+                "createOrEditLabel": "Create or edit a Bolt User"
+            },
+            "created": "A new Bolt User is created with identifier {{ param }}",
+            "updated": "A Bolt User is updated with identifier {{ param }}",
+            "deleted": "A Bolt User is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Bolt User {{ id }}?"
+            },
+            "detail": {
+                "title": "Bolt User"
+            },
+            "name": "Name",
+            "phone": "Phone",
+            "links": "Links"
+        }
+    }
+}
